@@ -30,6 +30,7 @@ hcxtools
 horst
 intel-ucode
 less
+libfido2
 linux-firmware
 linux-lts
 lm_sensors
@@ -45,6 +46,7 @@ nftables
 ntfs-3g
 nvme-cli
 openssh
+pam-u2f
 parted
 smartmontools
 squashfs-tools
