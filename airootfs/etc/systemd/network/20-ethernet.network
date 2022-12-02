@@ -1,0 +1,11 @@
+[Match]
+Name=en*
+Name=eth*
+
+[Network]
+DHCP=yes
+#IPv6PrivacyExtensions=yes
+
+[DHCPv4]
+UseNTP=true
+UseDNS=true

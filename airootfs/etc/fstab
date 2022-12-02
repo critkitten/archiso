@@ -1,0 +1,1 @@
+tmpfs /var/cache/pacman/pkg            tmpfs    size=4G        0       0

@@ -1,0 +1,10 @@
+## bios switch work while running vega 56
+
+## info current graphic
+$ amdvbflash -i
+## backup slot 0
+$ amdvbflash -s 0 <outfile>
+## flash slot 0
+$ amdvbflash -f -p 0 <infile>
+
+

@@ -1,0 +1,10 @@
+make distclean
+touch .config
+./util/scripts/config --enable VENDOR_ASROCK
+./util/scripts/config --enable BOARD_ASROCK_H81M_HDS
+./util/scripts/config --enable HAVE_MRC
+./util/scripts/config --set-str REALTEK_8168_MACADDRESS "d0:50:99:84:1b:7f" # Fill this in!
+make olddefconfig
+# ./util/scripts/config --disable CONSOLE_SERIAL # disable serial console
+# make -j4 CPU=4
+# sudo flashrom -p internal --ifd -i bios --noverify-all -w coreboot.rom # flash boot with iomem=relexed

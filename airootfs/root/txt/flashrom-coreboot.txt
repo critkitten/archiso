@@ -1,0 +1,2 @@
+## flash coreboot
+$ sudo flashrom -p internal --ifd -i bios --noverify-all -w coreboot.rom

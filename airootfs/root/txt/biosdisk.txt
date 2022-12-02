@@ -1,0 +1,5 @@
+#The mkimage action will create a ISO image on the user's hard drive. Usage is the following:
+$ biosdisk mkimage [-o option] [-i destination] /path/to/.exe 
+
+#The install action will create the biosdisk image, copy the image file to /boot, and then update the bootloader with an entry for the image. Then all the user has to do is boot the system and select the image to flash the BIOS; this will load the biosdisk image directly from the hard drive and flash the BIOS.
+$ biosdisk install [-o option] [--name=] /path/to/.exe
